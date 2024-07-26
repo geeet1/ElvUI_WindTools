@@ -16,7 +16,7 @@ local ChatFrame_AddMessageEventFilter = ChatFrame_AddMessageEventFilter
 local GetAchievementInfo = GetAchievementInfo
 local GetItemInfoInstant = GetItemInfoInstant
 local GetPvpTalentInfoByID = GetPvpTalentInfoByID
-local GetSpellTexture = GetSpellTexture
+local GetSpellTexture = C_Spell.GetSpellTexture
 local GetTalentInfoByID = GetTalentInfoByID
 
 local C_ChallengeMode_GetMapUIInfo = C_ChallengeMode.GetMapUIInfo

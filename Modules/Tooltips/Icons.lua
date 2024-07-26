@@ -11,7 +11,7 @@ local unpack = unpack
 
 local GetAchievementInfo = GetAchievementInfo
 local GetItemIcon = GetItemIcon
-local GetSpellTexture = GetSpellTexture
+local GetSpellTexture = C_Spell.GetSpellTexture
 local UnitBattlePetSpeciesID = UnitBattlePetSpeciesID
 local UnitBattlePetType = UnitBattlePetType
 local UnitFactionGroup = UnitFactionGroup
