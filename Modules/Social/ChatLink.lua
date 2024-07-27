@@ -14,7 +14,7 @@ local unpack = unpack
 
 local ChatFrame_AddMessageEventFilter = ChatFrame_AddMessageEventFilter
 local GetAchievementInfo = GetAchievementInfo
-local GetItemInfoInstant = GetItemInfoInstant
+local GetItemInfoInstant = C_Item.GetItemInfoInstant
 local GetPvpTalentInfoByID = GetPvpTalentInfoByID
 local GetSpellTexture = C_Spell.GetSpellTexture
 local GetTalentInfoByID = GetTalentInfoByID

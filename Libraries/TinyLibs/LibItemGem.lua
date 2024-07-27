@@ -5,6 +5,8 @@
 
 local MAJOR, MINOR = "LibItemGem.7000", 1
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
+local GetItemInfo = C_Item.GetItemInfo
+local GetItemGem = C_Item.GetItemGem
 
 if not lib then return end
 
