@@ -11,7 +11,7 @@ local hooksecurefunc = hooksecurefunc
 local next = next
 local print = print
 
-local GetAddOnMetadata = GetAddOnMetadata
+local GetAddOnMetadata = C_AddOns.GetAddOnMetadata
 
 local W = AceAddon:NewAddon(addonName, "AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0", "AceHook-3.0")
 
